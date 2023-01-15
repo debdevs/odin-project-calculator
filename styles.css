@@ -53,3 +53,28 @@ body{
 .clear:hover{
     background-color: rgb(190, 38, 250);
 }
+.first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.screen{
+    width:300px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous{
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}

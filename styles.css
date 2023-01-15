@@ -6,3 +6,50 @@ body{
     width:100vw;
     height: 100vh;
 }
+
+.btn  {
+    height: 75px;
+    width:75px;
+    margin:15px;
+    font-size:40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number{
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+.number:hover{
+    background-color: green;
+}
+
+.operator{
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+.operator:hover{
+    background-color: blue;
+}
+.decimal{
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+.decimal:hover{
+    background-color: palegoldenrod;
+}
+.equal{
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+}
+.equal:hover{
+    background-color: pink;
+}
+.clear{
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+.clear:hover{
+    background-color: rgb(190, 38, 250);
+}
